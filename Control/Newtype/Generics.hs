@@ -65,7 +65,7 @@ import Data.Kind (Type)
 import Data.Monoid
 import Data.Ord
 import qualified Data.Semigroup
-import Data.Semigroup (Min(..), Max(..), WrappedMonoid(..), Option(..))
+import Data.Semigroup (Min(..), Max(..), WrappedMonoid(..))
 import GHC.Generics
 {-import Generics.Deriving-}
 
@@ -365,9 +365,3 @@ instance Newtype (WrappedMonoid m) where
   type O (WrappedMonoid m) = m
   pack = WrapMonoid
   unpack (WrapMonoid m) = m
-
--- | @since 0.5.1
-instance Newtype (Option a) where
-  type O (Option a) = Maybe a
-  pack = Option
-  unpack (Option x) = x
