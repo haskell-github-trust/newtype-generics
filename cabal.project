@@ -1,0 +1,7 @@
+packages: *
+
+tests: true
+benchmarks: true
+
+package gauge
+  flags: -analysis
