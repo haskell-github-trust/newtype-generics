@@ -8,8 +8,8 @@ Description:         Per Conor McBride, the Newtype typeclass represents the pac
 License:             BSD3
 License-file:        LICENSE
 Author:              Darius Jahandarie, Conor McBride, João Cristóvão, Simon Jakobi
-Maintainer:          Simon Jakobi <simon.jakobi@gmail.com>
-Homepage:            http://github.com/sjakobi/newtype-generics
+Maintainer:          Haskell Github Trust <https://github.com/haskell-github-trust>
+Homepage:            http://github.com/haskell-github-trust/newtype-generics
 Category:            Control
 Build-type:          Simple
 Extra-source-files:  CHANGELOG.md
