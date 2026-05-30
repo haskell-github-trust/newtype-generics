@@ -1,5 +1,9 @@
 # Changelog for `newtype-generics`
 
+## [0.6.3] – 2026-05-30
+- Maintainer switch to Haskell Github Trust
+- Support newer compilers.
+
 ## [0.6.2] – 2022-05-19
 - Remove dependency on `transformers`.
 
