@@ -33,7 +33,7 @@ Library
 
 source-repository head
   type: git
-  location: https://github.com/sjakobi/newtype-generics
+  location: https://github.com/haskell-github-trust/newtype-generics
 
 test-suite test
   type:               exitcode-stdio-1.0
